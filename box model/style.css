@@ -1,0 +1,28 @@
+div {
+    border: 1px solid rgb(0, 0, 0);
+    margin: 20px;
+    /*拉開元件距離*/
+    text-align: center;
+    margin-top: 0px;
+}
+
+#BoxContent {
+    padding-bottom: 150px;
+    border: 1px dashed black
+}
+
+#BoxMargin {
+    border: 1px dashed black
+}
+
+#BoxBorder {
+    background-color: rgb(238, 255, 0);
+}
+
+#BoxPadding {
+    background-color: rgb(255, 255, 255);
+}
+
+#BoxContent {
+    background-color: rgb(255, 255, 255);
+}

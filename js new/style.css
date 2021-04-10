@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-image: "room.jpg";
+}
+
+table {
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+td {
+    border-bottom: 1px solid blue;
+}

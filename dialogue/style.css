@@ -1,0 +1,49 @@
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.chatOdd img {
+    float: left;
+}
+
+.chatEven img {
+    float: right;
+}
+
+.textLeft,
+.textRight {
+    height: 85px;
+    margin: 20px 80px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.textRight {
+    background-color: lightpink;
+}
+
+.textLeft {
+    background-color: lightblue;
+}
+
+.triAngleToLeft {
+    border-color: transparent lightpink transparent transparent;
+    border-style: solid;
+    height: 0px;
+    width: 0px;
+    border-width: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+.triAngleToRight {
+    border-color: transparent transparent transparent lightblue;
+    border-style: solid;
+    height: 0px;
+    width: 40px;
+    border-width: 25px;
+    margin-top: 20px;
+    float: right;
+}
